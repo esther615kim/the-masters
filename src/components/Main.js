@@ -8,10 +8,10 @@ import Hidden from "./cards/Hidden";
 const Main = () => {
   return (
     <React.Fragment>
+      <Popular />
       <Hidden />
       <Magazine />
       <Tips />
-      <Popular />
       {/* <Accordions />  */}
     </React.Fragment>
   );
