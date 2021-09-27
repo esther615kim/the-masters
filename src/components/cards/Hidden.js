@@ -9,7 +9,7 @@ import {
   CardMedia,
   Typography
 } from "@material-ui/core";
-// import "@fontsource/roboto";
+import "@fontsource/roboto";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
@@ -56,7 +56,6 @@ const useStyles = makeStyles({
     width: 40,
     height: 40,
     zIndex: 1,
-    background: "cover",
     position: "absolute",
     border: "2px solid #fff",
     borderRadius: "50%",
