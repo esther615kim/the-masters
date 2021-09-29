@@ -1,50 +1,50 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { find_masters } from "../../data.json";
+import { find_masters } from "../../components/data.json";
 import { Container, Box, Paper, Typography } from "@material-ui/core";
 import "@fontsource/roboto";
 //import { useStyles } from "./styles";
 
-const useStyles = makeStyles({
-  boxContainer: {
-    margin: "0 auto",
-    maxWidth: 855,
-    height: 100,
-    padding: 20,
+// const useStyles = makeStyles({
+//   boxContainer: {
+//     margin: "0 auto",
+//     maxWidth: 855,
+//     height: 100,
+//     padding: 20,
 
-    textAlign: "left"
-  },
-  wrapper: {
-    display: "flex",
-    flexDirection: "row",
-    padding: 10
-  },
-  sorting: {
-    float: "right"
-  },
-  card: {
-    width: 800,
-    height: 210,
-    margin: 3,
-    marginRight: 10
-  },
-  image: {
-    flex: 1,
-    width: 100,
-    height: 100,
-    borderRadius: 5
-  },
-  title: {
-    marginBottom: 5,
-    textAlign: "left"
-  },
-  textBox: {
-    flex: 5,
-    display: "flex",
-    flexDirection: "column",
-    padding: 10
-  }
-});
+//     textAlign: "left"
+//   },
+//   wrapper: {
+//     display: "flex",
+//     flexDirection: "row",
+//     padding: 10
+//   },
+//   sorting: {
+//     float: "right"
+//   },
+//   card: {
+//     width: 800,
+//     height: 210,
+//     margin: 3,
+//     marginRight: 10
+//   },
+//   image: {
+//     flex: 1,
+//     width: 100,
+//     height: 100,
+//     borderRadius: 5
+//   },
+//   title: {
+//     marginBottom: 5,
+//     textAlign: "left"
+//   },
+//   textBox: {
+//     flex: 5,
+//     display: "flex",
+//     flexDirection: "column",
+//     padding: 10
+//   }
+// });
 
 const FindCard = () => {
   const classes = useStyles();
