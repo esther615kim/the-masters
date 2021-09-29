@@ -1,45 +1,10 @@
 import React from "react";
 import Slider from "react-styled-carousel";
-import { makeStyles } from "@material-ui/core/styles";
 import { tips } from "../../components/data.json";
 import { Container, Box } from "@material-ui/core";
 import { Card, CardContent, CardMedia, Typography } from "@material-ui/core";
 import "@fontsource/roboto";
-//import { useStyles } from "./styles";
-
-const useStyles = makeStyles({
-  boxContainer: {
-    margin: "0 auto",
-    maxWidth: 855,
-    height: 300,
-    position: "relative",
-    padding: 5,
-    textAlign: "left"
-  },
-  viewAll: {
-    position: "absolute",
-    right: 60,
-    top: 30
-  },
-  card: {
-    maxWidth: 250,
-    height: 210,
-    margin: 3,
-    marginRight: 10
-  },
-  media: {
-    height: 38,
-    paddingTop: "38%" //16:9 비율이래
-  },
-  title: {
-    marginLeft: 45,
-    marginBottom: 5,
-    textAlign: "left"
-  },
-  text: {
-    paddingTop: 10
-  }
-});
+import useStyles from "./styles";
 
 const Tips = () => {
   const classes = useStyles();
